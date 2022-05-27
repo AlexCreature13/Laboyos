@@ -1,0 +1,134 @@
+.carousel-item{
+    height: 610px;
+}
+
+.body{
+    background-color: #6b1c1c;
+}
+
+.card{
+	margin: 100px;
+	background-color: rgb(255, 255, 255);
+}
+h1, h3{
+	color: #942d2d;
+}
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 600px;
+	height: 50px;
+	background-color: rgb(92, 58, 58);
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav a:hover{
+	color: white;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 150px;
+}
+a:nth-child(2) {
+	width: 150px;
+}
+a:nth-child(3) {
+	width: 150px;
+}
+a:nth-child(4) {
+	width: 150px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 150px;
+	left: 0;
+	background-color: #942d2d;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 150px;
+	left: 150px;
+	background-color: #942d2d;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 150px;
+	left: 300px;
+	background-color: #942d2d;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 150px;
+	left: 450px;
+	background-color: #942d2d;
+}
+
+.separador-item{
+    float: left;
+    width: 50%;
+    height: 350px;
+}
+
+.item{
+	display:block;
+	background-color: transparent;
+	border: 1px solid transparent;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	float:left;
+}
+  
+#index-gallery{
+	width:910px;
+	align-items: center;
+}
+
+footer{
+	width:100%;
+}
+
+
+.acontainer {
+	max-width: 100%;
+	margin: 5% auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	box-sizing: border-box;
+	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+  
+.lightbox-gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+  
+.lightbox-gallery div > img {
+	max-width: 100%;
+	display: block;
+}
+  
+.lightbox-gallery div {
+	margin: 10px;
+	flex-basis: 30%;
+}
+  
